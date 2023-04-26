@@ -1,0 +1,187 @@
+.card{
+    #crd{min-height: 430px;}
+    .card-body{
+        position: relative;
+    }
+    .card-header{
+      position: relative;
+      &::after {
+          content: "";
+          display: block;
+          width: 40%;
+          height: 3px;
+          background-color: #c25909;
+          margin: 10px auto;
+          border-radius: 3px;
+          position: absolute;
+          top:-15px;
+          left: calc(70% - 40%);
+           box-shadow: 2px 2px 4px rgba(231, 127, 9, 0.6);
+        }
+    }
+ 
+  .img1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  .img2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .card-footer{
+    height:auto;
+  }
+  #points{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #343a3c;
+    border: green($color: #676666);    p{
+        padding-left: 15px;
+        font-size: 13px;
+        margin: 0 auto;
+    } 
+  }
+
+  .ul-wrapper{
+    background-color: #343a3c;
+    border-radius: 13px;
+    height: 300px;
+    #title{
+      margin-left: 0;
+    }
+    ul{
+     li{
+        background-color: #242425;
+       
+     }
+    }
+  }
+}
+
+         #prize {
+             width: 100%;
+             height: auto;
+             background-color: #343a3c;
+             margin: 10px auto;
+             border-radius: 10px;
+             padding: 10px;
+    
+             li {
+                 position: relative;
+                 width: 96%;
+                 background-color: #212529;
+                 border-radius: 8px;
+                 margin: 10px auto;
+                 color: white;
+                 padding: 15px;
+
+                 
+            
+    
+    
+    
+                 img {
+                     padding-right: 7px;
+                     float: left;
+                 }
+    
+             }
+             li::before{
+                content: "";
+                  width: 3px;
+                  height: 40px;
+                  background-color: rgb(210, 101, 12);
+                  position: absolute;
+                  left: 0;
+                  top: 20%;
+                  box-shadow: 2px 2px 4px rgba(231, 127, 9, 0.6);
+                  
+             }
+    
+         }
+    
+
+     
+      
+.holdem,.holdem-bg{
+  img{
+    height: 120px;
+  }
+  p{
+  font-size: 15px;
+  font-family: monospace;
+    margin: 0;font-weight: 600;
+  }
+}
+
+#holdem-row{
+  border: 2px solid #343a3c;
+  border-radius: 10px;
+}
+ 
+              
+.ul-wrapper{
+  background-color: #343a3c;
+  height: 300px;
+  overflow: scroll;
+ .eachrow{
+    width: 98%;
+    margin: 10px auto;
+    color: white;
+    font-size: 15px;
+    background-color: #212529;
+    padding: 8px;
+  div{
+     font-family: 'Courier New', Courier, monospace;
+    span{
+        background-color: rgb(38, 38, 45);
+        border-radius: 50%;
+    }
+  }
+ }
+}
+
+
+.ul-wrapper::-webkit-scrollbar {
+  width: 5px;
+  height: 90%;
+}
+
+/* Style for the scrollbar thumb */
+.ul-wrapper::-webkit-scrollbar-thumb {
+  background-color: orange !important;
+  border-radius: 4px;
+}
+
+/* Style for the scrollbar track */
+.ul-wrapper::-webkit-scrollbar-track {
+  background-color: #212529;
+
+}
+
+
+
+@media only screen and(max-width:400px){
+  #points-id{
+   
+    #points{
+      width: 80%;
+    }
+  }
+
+#title{
+}
+
+.eachrow{
+  padding: 0 25px;
+  width: 100%;
+  
+}
+}

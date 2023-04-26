@@ -1,0 +1,163 @@
+    #card1{
+
+        background-color: #171718;
+        border: 2px solid #343a3c;
+        border-radius: 10px;
+    }
+
+   .malta-festival{
+     position: relative;
+        &::before {
+                content: "";
+                width:5px;
+                height: 80%;
+                background-color: #da620c;
+                margin: 10px auto;
+                border-radius: 3px;
+                position: absolute;
+                left: 0;
+                top: -10%;
+                box-shadow: 2px 2px 4px rgba(226, 123, 5, 0.6);            }
+       
+   }
+
+
+    #A-category{
+         .card-header{
+            position: relative;
+            &::after{
+                content: "";
+                background-color: rgb(197, 92, 11);
+                width: 50%;
+                height: 5px;
+                position: absolute;
+                top: -8px;
+                left: 25%;
+                box-shadow: 2px 2px 4px rgba(231, 127, 9, 0.6);
+            }
+             p{
+               color: white;
+               font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+               font-weight: 500;
+               font-size: 15px;
+               letter-spacing: 1px;
+             }
+         } 
+         .card-body{
+            background-color: #343434;
+            height: auto;
+           div{
+            p{
+                font-size: 13px!important;
+            }
+            img{
+                float: left;
+                margin-right: 10px;
+            }
+            height: auto;
+            color: white;
+            margin-top: 8px;
+            background-color: #1f1f21;
+            padding: 13px;
+           }
+         }
+    }
+
+
+    #prize{
+        .card-header{
+            color: white;
+            
+        }
+        .card-body{
+            height: auto;
+        }
+        
+       
+ .nested-div{
+    background-color:#222325;
+    color: white;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    padding: 1.4rem;
+    margin-top: 15px;
+    p{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 10px;
+    }
+    &::after{
+            content: "1 საგზური";
+            display: block;
+            height: 8px;
+            font-size: 12px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+    }
+    img{
+        position: absolute;
+        top: 0;
+        right: 10px;
+    }
+
+ }        
+    }
+    .nested-div2{
+    background-color: #222325;
+    color: white;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    padding: 1.1rem;
+    margin-top: 15px;
+ 
+    img {
+            position: absolute;
+            top: 0;
+            right: 10px;
+        }
+    }
+
+
+    .mystic-key{ 
+        border-radius: 10px;
+        .ul-wrapper{
+            background-color: #343a3c;
+            border-radius: 5px;
+            overflow-y: scroll;
+            ul{
+                height: 300px;
+                li{
+                    background-color: #1f1f21;
+                    color: white;
+                    border:1px solid #515156;
+                    & :first-child{
+                        font-size: 15px;
+                        background-color: rgb(51, 50, 50);
+                    }
+                }
+            }
+        }
+    }
+
+
+
+        .ul-wrapper::-webkit-scrollbar {
+            width: 5px;
+            height: 90%;
+        }
+    
+        /* Style for the scrollbar thumb */
+        .ul-wrapper::-webkit-scrollbar-thumb {
+            background-color: orange !important;
+            border-radius: 4px;
+        }
+    
+        /* Style for the scrollbar track */
+        .ul-wrapper::-webkit-scrollbar-track {
+            background-color: #212529;
+    
+        }
+
+
+        
